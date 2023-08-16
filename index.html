@@ -1,0 +1,398 @@
+<html lang="en">
+  <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                
+          <meta name="theme-color" content="#191919">
+          <meta name="apple-mobile-web-app-capable" content="yes">
+          <title>Futr Code</title>
+          <meta property="og:title" content="Futrcode">
+          <meta property="og:description" content="edit">
+          <meta property="og:image" content="img/banner.png">
+          <meta name="twitter:card" content="summary">
+          <meta name="twitter:title" content="edit">
+          <meta name="twitter:description" content="Futr Code">
+          <meta name="twitter:image" content="img/banner.png">
+          <meta name="twitter:image:alt" content="banner name">
+      
+      <meta property="title" content="edit">
+      <meta property="author" content="edit">
+      <meta property="image" content="/img/banner.png">
+      <meta property="description" content="Futr Code">
+          
+      <link rel="shortcut icon" href="/img/icon.png" type="image/x-icon"> 
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+<link rel="stylesheet"
+href="https://atstem.github.io/just.css/just.css"/>
+      
+  </head>
+  <style>
+
+.material-symbols-outlined {
+  transition:1s;
+  font-size: 28px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 200,
+  'opsz' 40
+}
+
+.material-symbols-outlined:focus,
+.material-symbols-outlined:active,
+.material-symbols-outlined.on
+{
+  transition:1s;
+  opacity:50%;
+  font-size: 28px;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 300,
+  'GRAD' 200,
+  'opsz' 40
+}
+
+</style>
+  <body>
+    
+  <bg class=" dbg"> </bg> 
+    
+   <section class="fade" id="code">
+     
+<nav class="foot float" id=" ">
+
+  <span class=" item-left" id=" ">
+
+<a class=" btn " onclick="copy()">
+<span class="material-symbols-outlined">
+content_copy
+</span>
+  </a>
+  
+  <a class=" btn " onclick="backup()">
+<span class="material-symbols-outlined">
+backup
+</span>
+  </a>
+
+   
+
+    <a class=" btn " onclick="load()">
+    <span class="material-symbols-outlined">
+settings_backup_restore
+</span>
+  </a>
+
+      
+  <a class=" btn " onclick="code()">
+
+  <span class="white2 on
+  material-symbols-outlined">
+code
+</span>
+
+  </a>
+
+   
+      <a class=" btn" onclick="run()">
+
+       <span class="material-symbols-outlined">
+browse_activity
+</span>
+
+      </a>
+
+     <a class=" btn " onclick="sure()">
+    <span class="material-symbols-outlined">
+integration_instructions
+</span>
+</a>
+
+  
+
+    </span>
+
+    
+    
+
+   
+
+  </nav>
+  
+<div class="hero col">
+
+     <span class="col " id=" "> 
+     <textarea
+       class="vol v dbg snip" id="snip"
+    ></textarea>              
+       
+     </span>
+     
+</div>
+
+   </section>
+    
+    <section class="fade hide"
+    id="run">
+
+   <nav class="foot dbg float" id=" ">
+
+    <span class=" item-left " id=" ">
+      
+  <a class=" btn " onclick="code()">
+
+  <span class="white2 
+
+  material-symbols-outlined">
+
+code
+
+</span>
+
+  </a>
+
+   
+
+      <a class=" btn" onclick="run()">
+
+     <span class="on material-symbols-outlined">
+browse_activity
+</span>
+
+      </a>
+
+   
+  <a class=" btn " 
+href="https://actwu.github.io/futrcode/view">
+    <span class="material-symbols-outlined">
+fullscreen
+</span>  
+</a>
+    </span>
+  </nav>
+
+   
+
+   
+    <span id="runner" class=" bbg"> </span>
+    </section>
+    
+    <section class="hero  hide" id="sure">
+     
+      <div class="cont dbg "> 
+       <p class="w spacemono ">Code Template </p> 
+        <a onclick="code()" class="pbg btn "> 
+          <p class="subtitle w ">Back</p> 
+          </a> 
+    </div>
+      
+        <span class="gridby2 small-m space2">
+
+          <a onclick="copyThis(`<bg class=' '> </bg>`)" class="dbg btn"> 
+          <p class="small ">Bg</p> 
+          </a>
+          
+          <a onclick="copyThis(`<section id='' class=' '> </section>`)" 
+           class="dbg btn "> 
+          <p class="small ">Section</p> 
+          </a> 
+          
+          <a onclick="copyThis(`<div class='hero '> </div>`)" 
+             class="dbg  btn"> 
+          <p class="small ">Hero</p> 
+          </a>
+
+          <a onclick="copyThis(`<p class=' '> </p>`)" 
+           class="dbg btn "> 
+          <p class="small ">Text</p> 
+          </a> 
+          
+          <a onclick="copyThis(`<div class='Modal '> </div>`)" 
+             class="dbg  btn ">
+          <p class="small ">Modal</p>
+          </a>
+          
+          <a onclick="copyThis(`<div class='cont '> </div>`)" 
+             class="dbg  btn ">
+          <p class="small ">Container</p>
+          </a>
+          
+          <a onclick="copyThis(`<a class='btn '>
+       <p class=' '> </p>
+ </a>`)" class="dbg btn"> 
+          <p class="small ">Btn</p> 
+          </a>
+
+
+          <a onclick="copyThis(`<nav class='head small-p row '>
+
+<span class='item-left '>
+<p class=' '> Name </p>
+</span>
+
+<span class='item-right'>
+<a class='ico' onclick='menu()'>
+       <p class=' '> =  </p>
+ </a>
+</span>
+
+</nav>`)" class="dbg btn"> 
+
+          <p class="small "> Head </p> 
+
+          </a>
+
+<a onclick="copyThis(`<div class='input'>
+<input placeholder='Input' value='input'>
+</div>`)" 
+           class="dbg btn "> 
+          <p class="small ">Input</p> 
+          </a> 
+
+          <a onclick="copyThis(`<div class='social'>
+<textarea placeholder='textarea' value='textarea'>
+</textarea>
+</div>`)" 
+           class="dbg btn "> 
+          <p class="small ">Textarea</p> 
+          </a> 
+          
+          <a onclick="copyThis(`<nav class='foot '>
+<a class='ico '>
+
+       <p class=' '>A</p>
+
+ </a>
+
+<a class='ico '>
+
+       <p class=' '>B</p>
+
+ </a>
+
+</nav>
+`)" class="dbg btn"> 
+          <p class="small ">Foot</p> 
+          </a>
+
+<a onclick="copyThis(`<span class='item-left '>
+            
+</span>`)" class="dbg btn"> 
+          <p class="small ">Item-left</p> 
+          </a>
+          
+          <a onclick="copyThis(`<span class='left '>
+                      
+</span>`)" class="dbg btn"> 
+          <p class="small ">Left</p> 
+
+          </a>
+          
+          <a onclick="copyThis(`<span class='item '>
+                      
+</span>`)" class="dbg btn"> 
+          <p class="small ">Item</p> 
+          </a>
+
+ <a onclick="copyThis(`<span class='right '>
+             
+</span>`)" class="dbg btn"> 
+          <p class="small ">Right</p> 
+          </a>
+          
+<a onclick="copyThis(`<span class='item-right '>
+            
+</span>`)" class="dbg btn"> 
+          <p class="small ">Item-right</p> 
+          </a>
+
+<a onclick="copyThis(`<span class='gridby2'>
+            
+</span>`)" class="dbg btn"> 
+          <p class="small ">Gridby2</p> 
+          </a>
+          
+         <a onclick="copyThis(`<span class='row'>
+                     
+</span>`)" class="dbg btn"> 
+          <p class="small ">Row</p> 
+
+          </a>
+          
+          <a onclick="copyThis(`<span class='col '>
+                      
+</span>`)" class="dbg btn"> 
+          <p class="small ">Column</p> 
+
+          </a>
+
+          <a onclick="copyThis(`<script src=' '> </script>`)" class="dbg btn"> 
+          <p class="small ">Script</p> 
+          </a>
+
+          <a onclick="copyThis(`<link rel='' href=''/>`)" class="dbg btn"> 
+          <p class="small ">Link rel</p> 
+          </a>
+          
+          <a href="https://fonts.google.com/icons?icon.style=Rounded" 
+             class="lbg col btn"> 
+          <span class="material-symbols-outlined">
+            category
+            </span>
+            <p class="small ">G-Icons</p> 
+          </a>
+          
+          <a href="https://fontawesome.com/search?o=r&m=free&s=solid" class="pbg btn"> 
+
+          <p class="small ">Fontawesome</p> 
+
+          </a>
+          
+        <a onclick="starthtml(), code()" class="vbg btn ">
+          <p class="small ">Add Futr Temp</p>
+         </a> 
+        </span> 
+       
+     
+   </section>
+    
+    
+   
+
+      
+<script src="view/script.js">
+  </script>
+  <script>
+  const config = [css = 'default', icon = 'all']
+  const configstate = 'defined'
+
+datarevert()
+    </script>
+   <script src="https://atstem.github.io/just.css/just.js">
+  </script> 
+ 
+    
+   <style> 
+    .snip{
+    
+     height: 65vh;
+     width:85vw;
+      }
+
+     a:active {
+    opacity: 50%;
+   }
+
+    a:hover {
+    opacity: 25%;
+   }
+
+nav { z-index:3;}
+    </style>
+    
+  </body>
+
+
+  </html>
