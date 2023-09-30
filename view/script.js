@@ -37,21 +37,16 @@ htmlcode =
       <link rel="shortcut icon" href="/img/icon.png" type="image/x-icon"> 
 
       <link rel="stylesheet" href="https://atstem.github.io/just.css/just.css"/>
-      <link rel="stylesheet" 
+      <link rel="stylesheet" href="https://atstem.github.io/just.css/anim.css"/>
+      <link rel="stylesheet" href="https://atstem.github.io/just.css/fonts.css"/>
+      
+       <link rel="stylesheet" 
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css"/>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  </head>
-  
-  
-  <style>
-.material-symbols-rounded {
-  font-variation-settings:
-  'FILL' 1,
-  'wght' 700,
-  'GRAD' 200,
-  'opsz' 48
-}
-</style>
+
+      </head>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <style>.material-symbols-rounded { font-variation-settings: 'FILL' 1,'wght' 700,'GRAD' 200, 'opsz' 48 } </style>
 
   <body>
 
