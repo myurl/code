@@ -108,8 +108,8 @@ function run() {
    
   viewport = `
   
-   <iframe style="top:0;left:0;right:0;bottom:1in; height: 100%;width: 100%; margin-bottom:1in;" src="https://myurl.top/code/view/re.html"
-class=" float center"
+   <iframe style="position:fixed; top:0;left:0;right:0; height: 90%;width: 100vw; bottom:0.65in;" src="https://myurl.top/code/view/re.html"
+class="  center"
 ></iframe>
 
   `
