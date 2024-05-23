@@ -39,7 +39,7 @@ htmlcode =
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="URL of your tile image">
 <meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="https://actwu.github.io/ui/cute.css"/>
+<link rel="stylesheet" href="https://actwu.github.io/neu/n.css"/>
 </head>
 <body>
 
