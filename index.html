@@ -76,7 +76,7 @@ textarea{display: block; flex-grow: 1; height: 80vh; width: 90vw;}
 img {height: 1.15in; width: 1.15in;}
 
 [ats] a {
-     width: max-content;
+width: max-content;
 }
 </style>
 <body>
@@ -92,11 +92,11 @@ img {height: 1.15in; width: 1.15in;}
 
 <cont foot island col neu>
 <span row>
-<a onclick="load();"
+<a onmousedown="load();"
 glass center>
 <i w1 class="fa-solid fa-lg fa-rotate"></i>
 </a>
-<a onclick="backup();"
+<a onmousedown="backup();"
 glass center>
 <i w1 class="fa-solid fa-floppy-disk"></i>
 </a>
@@ -107,11 +107,11 @@ v3bg center>
 <i v1 class="fa-solid fa-lg fa-code"></i>
 </a>
 
-<a onclick="run();"
+<a onmousedown="run();"
 v1bg center>
 <i v3 class="fa-solid fa-lg fa-play"></i>
 </a>
-<a onclick="sure();"
+<a onmousedown="sure();"
 v1bg center>
 <i v3 class="fa-solid fa-lg fa-cubes"></i>
 </a></span>
@@ -124,13 +124,13 @@ v1bg center>
 <cont foot island col neu>
 <span row>
 <a 
-onclick="window.open('https://actwu.github.io/code/view/re.html')"
+onmousedown="window.open('https://actwu.github.io/code/view/re.html')"
 glass center>
 <i w1 class="fa-solid fa-lg fa-expand"></i>
 </a>
 </span>
 <span row>
-<a onclick="code();"
+<a onmousedown="code();"
 v1bg center>
 <i v3 class="fa-solid fa-lg fa-code"></i>
 </a>
@@ -140,7 +140,7 @@ v3bg center>
 <i v1 class="fa-solid fa-lg fa-play"></i>
 </a>
 
-<a onclick="sure();"
+<a onmousedown="sure();"
 v1bg center>
 <i v3 class="fa-solid fa-lg fa-cubes"></i>
 </a>
@@ -151,207 +151,203 @@ v1bg center>
 <section id="sure" class="hide ">
 
 <div scroll small-m bdr="15" class="fade-1s">
-<span row small-m small-mb2 ats>
 
-<a onclick="copyThis(`<bg > </bg>`)" center> 
+<span row small-m small-mb2 ats>
+<a onmousedown="copyThis(`<bg > </bg>`)" center> 
 <img src="img/13.png">
 <p unbound bold w1>Bg</p> 
 </a>
 
-<a onclick="copyThis(`<section logoscreen> </section>`)" center> 
-<img src="img/10.png" bdr="25" alt="">
-<p unbound bold w1>Logo</p> 
-</a>
-
-<a onclick="copyThis(`<layout > </layout>`)" center> 
-<img src="img/1.png" bdr="25" alt="">
-<p unbound bold w1>Logo</p> 
-</a>
-
-<a onclick="copyThis(`<section id='' '> </section>`)" center> 
+<a onmousedown="copyThis(`<section > </section>`)" center> 
 <img src="img/15.png">
 <p unbound bold w1>Section</p> 
-</a> 
-
-<a onclick="copyThis(`<div > </div>`)" center> 
-<img src="img/15.png">
-<p unbound bold w1>Div</p>  
 </a>
 
-<a onclick="copyThis(`<span > </span>`)" center> 
-<img src="img/15.png">
-<p unbound bold w1>Span</p> 
+<a onmousedown='copyThis(`<cont side bbg item neu>
+<a onmousedown="" vbg> 
+<I m class="fa-solid fa-wand-magic-sparkles"></i>
+</a>
+<a onmousedown=""> 
+<i m class="fa-solid fa-user"></i>
+</a>
+</cont>`)' center> 
+<img src="img/2.png">
+<p unbound bold w1>Side Bar</p> 
 </a>
 
-<a onclick="copyThis(`<p > </p>`)" center> 
-<img src="img/8.png">
-<p unbound bold w1>Text</p>  
-</a> 
+<a onmousedown="copyThis(`<cont head bbg item neu>
+<p item unbound bold w1>Head</p> 
+<a item-right onmousedown=''> 
+<p unbound bold m>=</p> 
+</a>
+</cont>`)" center> 
+<img src="img/3.png">
+<p unbound bold w1>Head</p> 
+</a>
+
+<a onmousedown='copyThis(`<cont foot bbg item neu>
+<a onmousedown="" vbg> 
+<I m class="fa-solid fa-wand-magic-sparkles"></i>
+</a>
+<a onmousedown=""> 
+<i m class="fa-solid fa-user"></i>
+</a>
+</cont>`)' center> 
+<img src="img/4.png">
+<p unbound bold w1>Foot</p> 
+</a>
 
 
-<a onclick="copyThis(`<cont> </cont>`)" center>
+<a onmousedown='copyThis(`<cont big>
+<cont neu mid-p small-m bdr="25">
+<p unbound bold m mid>Card</p> 
+<p unbound bold m >Is it?</p> 
+</cont>
+</cont>`)' center> 
+<img src="img/6.png">
+<p unbound bold w1>Card</p> 
+</a>
+
+<a onmousedown='copyThis(`<cont >
+</cont>`)' center> 
 <img src="img/7.png">
-<p unbound bold w1>Container</p>
+<p unbound bold w1>Container</p> 
 </a>
 
-<a onclick="copyThis(`<a onclick='to()' >
-<p class=' '> </p>
-</a>`)" center> 
-<img src="img/9.png" bdr="25" alt="">
-<p unbound bold w1>Button</p> 
+<a onmousedown='copyThis(`<p unbound bold w1>Tex</p>`)' center> 
+<img src="img/8.png">
+<p unbound bold w1>Text</p> 
 </a>
 
-<a onclick="copyThis(`<img class='' src=' '/>`)" center> 
-<img src="img/14.png" bdr="25" alt="">
+<a onmousedown='copyThis(`<img src="img/8.png">`)' center> 
+<img src="img/14.png">
 <p unbound bold w1>Image</p> 
 </a>
 
-<a onclick="copyThis(`<nav class='head stay row '>
-
-<span class='item-left '>
-<p class=' '> Name </p>
-</span>
-
-<span class='item-right'>
-<a class='ico' onclick='menu()'>
-<p class=' '> =  </p>
+<a onmousedown='copyThis(`<a onmousedown="">
+<p>text</p>
+</a>`)' center> 
+<img src="img/9.png">
+<p unbound bold w1>Button</p> 
 </a>
-</span>
 
-</nav>`)" center> 
-
-<img src="img/3.png" bdr="25" alt="">
-<p unbound bold w1>Head</p> 
-
+<a href="https://fontawesome.com/search?o=r&m=free&s=solid" center> 
+<img src="img/10.png">
+<p unbound bold w1>Icon's</p> 
 </a>
 
 <a onclick="copyThis(`<textarea placeholder='textarea' value='textarea'>
-</textarea>`)" center> 
+</textarea>`)" center=""> 
 <img src="img/7.png">
-<p unbound bold w1>Input</p>  
-</a> 
-
-<a onclick="copyThis(`<nav class='foot '>
-<a class='cont btn '>
-
-<p class=' '>A</p>
-
+<p unbound="" bold="" w1="">Input</p>  
 </a>
 
-<a class='cont btn '>
-
-<p class=' '>B</p>
-
-</a>
-
-</nav>
-`)" center> 
-<img src="img/2.png" bdr="25" alt="">
-<p unbound bold w1>Foot</p> 
-
+<a onclick="copyThis(`<span > </span>`)" center=""> 
+<img src="img/15.png">
+<p unbound="" bold="" w1="">Span</p> 
 </a>
 
 <a onclick="copyThis(`<span class='item-left '>
 
-</span>`)" center> 
-<img src="img/11.png" bdr="25" alt="">
-<p unbound bold w1>Item Left</p> 
+</span>`)" center=""> 
+<img src="img/11.png" neu="" bdr="25" alt="">
+<p unbound="" bold="" w1="">Item Left</p> 
 </a>
 
 <a onclick="copyThis(`<span class='left '>
 
-</span>`)" center> 
-<img src="img/11.png" bdr="25" alt="">
-<p unbound bold w1>Left</p> 
+</span>`)" center=""> 
+<img src="img/11.png" neu="" bdr="25" alt="">
+<p unbound="" bold="" w1="">Left</p> 
 
 </a>
 
 <a onclick="copyThis(`<span class='item '>
 
-</span>`)" center> 
-<img src="img/17.png" bdr="25" alt="">
-<p unbound bold w1>Item</p> 
+</span>`)" center=""> 
+<img src="img/17.png" neu="" bdr="25" alt="">
+<p unbound="" bold="" w1="">Item</p> 
 </a>
 
 <a onclick="copyThis(`<span class='right '>
 
-</span>`)" center> 
-<img src="img/16.png" bdr="25" alt="">
-<p unbound bold w1>Right</p> 
+</span>`)" center=""> 
+<img src="img/16.png" neu="" bdr="25" alt="">
+<p unbound="" bold="" w1="">Right</p> 
 </a>
 
 <a onclick="copyThis(`<span class='item-right '>
 
-</span>`)" center> 
-<img src="img/16.png" bdr="25" alt="">
-<p unbound bold w1>Item Right</p> 
+</span>`)" center=""> 
+<img src="img/16.png" neu="" bdr="25" alt="">
+<p unbound="" bold="" w1="">Item Right</p> 
 </a>
 
 <a onclick="copyThis(`<span grid='2'>
 
-</span>`)" center> 
-<img src="img/19.png" bdr="25" alt="">
-<p unbound bold w1>Grid 2</p> 
+</span>`)" center=""> 
+<img src="img/19.png" neu="" bdr="25" alt="">
+<p unbound="" bold="" w1="">Grid 2</p> 
 </a>
 
 <a onclick="copyThis(`<span grid='1'>
 
-</span>`)" center> 
-<img src="img/18.png" bdr="25" alt="">
-<p unbound bold w1>Grid 3</p> 
+</span>`)" center=""> 
+<img src="img/18.png" neu="" bdr="25" alt="">
+<p unbound="" bold="" w1="">Grid 3</p> 
 </a>
 
 
 <a onclick="copyThis(`<span class='row'>
 
-</span>`)" center> 
-<img src="img/20.png" bdr="25" alt="">
-<p unbound bold w1>Row</p> 
+</span>`)" center=""> 
+<img src="img/20.png" neu="" bdr="25" alt="">
+<p unbound="" bold="" w1="">Row</p> 
 </a>
 
 <a onclick="copyThis(`<span class='col '>
 
-</span>`)" center> 
-<img src="img/18.png" bdr="25" alt="">
-<p unbound bold w1>Column</p> 
+</span>`)" center=""> 
+<img src="img/18.png" neu="" bdr="25" alt="">
+<p unbound="" bold="" w1="">Column</p> 
 </a>
 
-<a onclick="copyThis(`<script src=' '> </script>`)" center> 
-<i v3 b2bg neu big-p bdr="25" small-mb big class="fa-solid fa-code"></i>
-<p unbound bold w1>Script</p>
+<a onclick="copyThis(`<script src=' '> </script>`)" center=""> 
+<i v3="" b2bg="" neu="" big-p="" bdr="25" small-mb="" big="" class="fa-solid fa-code"></i>
+<p unbound="" bold="" w1="">Script</p>
 </a>
-<a onclick="copyThis(`<link rel='' href=''/>`)" center> 
-<i v3 b2bg neu big-p bdr="25" small-mb big class="fa-solid fa-code"></i>
-<p unbound bold w1>Linkrel</p>
-</a>
-
-
-<a href="https://fontawesome.com/search?o=r&amp;m=free&amp;s=solid" center > 
-
-<i v3 b2bg neu big-p bdr="25" small-mb big class="fa-solid fa-cubes"></i>
-<p unbound bold w1>Fontawesome</p>
+<a onclick="copyThis(`<link rel='' href=''/>`)" center=""> 
+<i v3="" b2bg="" neu="" big-p="" bdr="25" small-mb="" big="" class="fa-solid fa-code"></i>
+<p unbound="" bold="" w1="">Linkrel</p>
 </a>
 
-<a href="https://actwu.github.io/neu" center> 
-<i v3 b2bg neu big-p bdr="25" small-mb big class="fa-solid fa-gear"></i>
-<p unbound bold w1>Neu</p>
+
+<a href="https://fontawesome.com/search?o=r&amp;m=free&amp;s=solid" center=""> 
+
+<i v3="" b2bg="" neu="" big-p="" bdr="25" small-mb="" big="" class="fa-solid fa-cubes"></i>
+<p unbound="" bold="" w1="">Fontawesome</p>
+</a>
+
+<a href="https://actwu.github.io/neu" center=""> 
+<i v3="" b2bg="" neu="" big-p="" bdr="25" small-mb="" big="" class="fa-solid fa-gear"></i>
+<p unbound="" bold="" w1="">Neu</p>
 
 </a>
-<a onclick="starthtml(), code()" center >
-<i v3 b2bg neu big-p bdr="25" small-mb big class="fa-solid fa-plus"></i>
-<p unbound bold w1>Add Futr Temp</p>
+<a onclick="starthtml(), code()" center="">
+<i v3="" b2bg="" neu="" big-p="" bdr="25" small-mb="" big="" class="fa-solid fa-plus"></i>
+<p unbound="" bold="" w1="">Add Futr Temp</p>
 </a> 
 </span>
 
 </div>
 
 <cont foot island neu>
-<a onclick="code();"
+<a onmousedown="code();"
 v1bg center>
 <i v3 class="fa-solid fa-lg fa-code"></i>
 </a>
 
-<a onclick="run();"
+<a onmousedown="run();"
 v1bg center>
 <i v3 class="fa-solid fa-lg fa-play"></i>
 </a>
