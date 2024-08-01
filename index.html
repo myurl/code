@@ -1,254 +1,187 @@
-<html lang="en">
-  <head>
-          <meta charset="UTF-8">
-          <meta http-equiv="X-UA-Compatible" content="IE=edge">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                
-          <meta name="theme-color" content="#191919">
-          <meta name="apple-mobile-web-app-capable" content="yes">
-          <title>Futr Code</title>
-          <meta property="og:title" content="Futrcode">
-          <meta property="og:description" content="edit">
-          <meta property="og:image" content="img/banner.png">
-          <meta name="twitter:card" content="summary">
-          <meta name="twitter:title" content="edit">
-          <meta name="twitter:description" content="Futr Code">
-          <meta name="twitter:image" content="img/banner.png">
-          <meta name="twitter:image:alt" content="banner name">
-      
-      <meta property="title" content="edit">
-      <meta property="author" content="edit">
-      <meta property="image" content="/img/banner.png">
-      <meta property="description" content="Futr Code">
-          
-      <link rel="shortcut icon" href="/img/icon.png" type="image/x-icon"> 
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-<link rel="stylesheet"
-href="https://atstem.github.io/just.css/just.css"/>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          
+    <meta name="theme-color" content="#191919">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Futr Code</title>
+    <meta property="og:title" content="Futrcode">
+    <meta property="og:description" content="edit">
+    <meta property="og:image" content="img/banner.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="edit">
+    <meta name="twitter:description" content="Futr Code">
+    <meta name="twitter:image" content="img/banner.png">
+    <meta name="twitter:image:alt" content="banner name">
+
+<meta property="title" content="edit">
+<meta property="author" content="edit">
+<meta property="image" content="/img/banner.png">
+<meta property="description" content="Futr Code">
+    
+<link rel="shortcut icon" href="/img/icon.png" type="image/x-icon"> 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+<link rel="stylesheet" href="https://actwu.github.io/neu/n.css"/>
+<script src="https://actwu.github.io/neu/n.js"></script>
 <link rel="stylesheet"
 href="https://atstem.github.io/just.css/anim.css"/>
-  </head>
-  <style>
-
-.material-symbols-outlined {
-  transition:1s;
-  font-size: 28px;
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 300,
-  'GRAD' 200,
-  'opsz' 40
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<style>
+*{
+--b1:#140727;--b2:#2c1b45;--b3:#2B144C;--b4:#513974;
+--v1:#6025B4;--v2:#8044D6;--v3:#AF77FF;
+--y1:#DCB569;--r1:#B8524F;--p1:#F8C1B9;--w1:#D5C7E9;
 }
 
-.material-symbols-outlined:focus,
-.material-symbols-outlined:active,
-.material-symbols-outlined.on
-{
-  transition:1s;
-  opacity:50%;
-  font-size: 28px;
-  font-variation-settings:
-  'FILL' 1,
-  'wght' 300,
-  'GRAD' 200,
-  'opsz' 40
-}
 
+[w1]{color:var(--w1);} [w1bg]{background-color:var(--b1);} 
+[w1ol]{outline:var(--w1) solid 1.5px;}
+
+[b1]{color:var(--b1);} [b1bg]{background-color:var(--b1);} 
+[b1ol]{outline:var(--b1) solid 1.5px;}
+[b2]{color:var(--b2);} [b2bg]{background-color:var(--b2);}
+[b2ol]{outline:var(--b2) solid 1.5px;}
+[b3]{color:var(--b3);} [b3bg]{background-color:var(--b3);}
+[b3ol]{outline:var(--b3) solid 1.5px;}
+[b4]{color:var(--b4);} [b4bg]{background-color:var(--b4);}
+[b4ol]{outline:var(--b4) solid 1.5px;}
+
+[v1]{color:var(--v1);} [v1bg]{background-color:var(--v1);}
+[v1ol]{outline:var(--v1) solid 1.5px;}
+[v2]{color:var(--v2);} [v2bg]{background-color:var(--v2);}
+[v2ol]{outline:var(--v2) solid 1.5px;}
+[v3]{color:var(--v3);} [v3bg]{background-color:var(--v3);}
+[v3ol]{outline:var(--v3) solid 1.5px;}
+
+[y1]{color:var(--y1);} [y1bg]{background-color:var(--y1);}
+[y1ol]{outline:var(--y1) solid 1.5px;}
+[r1]{color:var(--r1);} [r1bg]{background-color:var(--r1);}
+[r1ol]{outline:var(--r1) solid 1.5px;}
+[p1]{color:var(--p1);} [p1bg]{background-color:var(--p1);}
+[p1ol]{outline:var(--p1) solid 1.5px;}
+
+[tx]{display: flex; flex-basis: content; }
+textarea{display: block; flex-grow: 1; height: 90vh; width: 90vw;}
+[foot] a {height: 0.3in;}
+
+img {height: 2in; width: 2in;}
 </style>
-  <body>
-    
-  <bg class=" bbg"> </bg> 
-    
-   <section class=" fade-1s" id="code">
-     
-<nav class="foot float" id=" ">
+<body>
+<bg b1bg></bg>
 
-  <span class="item item-right" id=" ">
 
-<a class=" btn " onclick="copy()">
-<span class="v material-symbols-outlined">
-content_copy
-</span>
-  </a>
-  
-  <a class=" btn " onclick="backup()">
-<span class="v material-symbols-outlined">
-backup
-</span>
-  </a>
-
-   
-
-    <a class=" btn " onclick="load()">
-    <span class="v material-symbols-outlined">
-settings_backup_restore
-</span>
-  </a>
-  </span>
-    <span class=" item-right item " id=" ">  
-  <a class=" btn " onclick="code()">
-
-  <span class="v on
-  material-symbols-outlined">
-code
-</span>
-
-  </a>
-
-   
-      <a class=" btn" onclick="run()">
-
-       <span class="v material-symbols-outlined">
-browse_activity
-</span>
-
-      </a>
-
-     <a class=" btn " onclick="sure()">
-    <span class="v material-symbols-outlined">
-integration_instructions
-</span>
-</a>
-
-  
-
-    </span>
-
-    
-    
-
-   
-
-  </nav>
-  
-<div class="hero col">
-
-     <span class="col " id=" "> 
-     <textarea 
-       class=" bbg v snip" id="snip"
-    ></textarea>              
-       
-     </span>
-     
+<section id="code" class=" hide">
+<div tx neu w1bg bdr="15" small-m class="fade-1s">
+<textarea id="snip" placeholder="Code Here" w1 flex small-p w1bg>
+</textarea>
 </div>
-
-   </section>
-    
-    <section class="fade-1s hide"
-    id="run">
-
-   <nav class="foot bbg float" id=" ">
-
-    <span class=" item-right item " id=" ">
-      
-  <a class=" btn " onclick="code()">
-
-  <span class="v 
-
-  material-symbols-outlined">
-
-code
-
-</span>
-
-  </a>
-
-   
-
-      <a class=" btn" onclick="run()">
-
-     <span class="on v material-symbols-outlined">
-browse_activity
-</span>
-
-      </a>
-
-   
-  <a class=" btn " 
-onclick="window.open('https://actwu.github.io/code/view/re.html')">
-    <span class="v material-symbols-outlined">
-fullscreen
-</span>  
-</a>
-    </span>
-  </nav>
-
-   
-
-   
-    <span id="runner" style="margin-bottom: 1in;" class=" bbg"> </span>
-    </section>
-    
-    <section class="hide fade-1s " id="sure">
+    <div></div>
      
-      <nav class="foot float right bbg "> 
-        <span class="item item-right" id=" ">
+<cont foot island neu>
+<a
+v3bg center>
+<i v1 class="fa-solid fa-lg fa-code"></i>
+</a>
 
-<a class=" btn " onclick="code()">
-<span class="v material-symbols-outlined">
-code
-</span>
-</a>  
-          </span> 
-    </nav>
-      <div class="hero">
-       <p class=" v xl spacemono ">Code Template </p> 
-      
-        <span class="gridby2 small-m space2">
+<a onclick="run();"
+v1bg center>
+<i v3 class="fa-solid fa-lg fa-play"></i>
+</a>
+<a onclick="sure();"
+v1bg center>
+<i v3 class="fa-solid fa-lg fa-cubes"></i>
+</a>
+</cont>
+    
+</section>
+<section id="run" class=" hide">
 
-          <a onclick="copyThis(`<bg > </bg>`)" class="vol btn"> 
-          <p class="small v">Bg</p> 
-          </a>
-          
-          <a onclick="copyThis(`<section logoscreen> </section>`)" 
-             class="vol btn"> 
-          <p class="small v">Logo</p> 
-          </a>
-          
-          <a onclick="copyThis(`<section id='' '> </section>`)" 
-           class="vol btn "> 
-          <p class="v small ">Section</p> 
-          </a> 
-          
-          <a onclick="copyThis(`<layout > </layout>`)" 
-             class="vol btn"> 
-          <p class="v small ">Layout</p> 
-          </a>
+<span id="runner" class="fade-1s"></span>
+<cont foot island neu>
+<a onclick="code();"
+v1bg center>
+<i v3 class="fa-solid fa-lg fa-code"></i>
+</a>
 
-             <a onclick="copyThis(`<div > </div>`)" 
-             class="vol btn"> 
-          <p class="v small ">Div</p> 
-          </a>
+<a
+v3bg center>
+<i v1 class="fa-solid fa-lg fa-play"></i>
+</a>
 
-             <a onclick="copyThis(`<span > </span>`)" 
-             class="vol btn"> 
-          <p class="v small ">Span</p> 
-          </a>
+<a onclick="sure();"
+v1bg center>
+<i v3 class="fa-solid fa-lg fa-cubes"></i>
+</a>
+</cont>
 
-          <a onclick="copyThis(`<p > </p>`)" 
-           class=" vol btn "> 
-          <p class=" v small ">Text</p> 
-          </a> 
+</section>
+<section id="sure" class=" fade-1s">
+ 
+<div scroll small-m bdr="15" class="fade-1s">
+<span grid="2" small-m small-mb2 class=" space2">
 
-          
-          <a onclick="copyThis(`<cont> </cont>`)" 
-             class=" vol btn ">
-          <p class=" v small ">Container</p>
-          </a>
-          
-          <a onclick="copyThis(`<a onclick='to()' >
-       <p class=' '> </p>
- </a>`)" class=" vol  btn"> 
-          <p class=" v small ">Btn</p> 
-          </a>
+<a onclick="copyThis(`<bg > </bg>`)" center> 
+<img src="img/13.png">
+<p unbound bold w1>Bg</p> 
+</a>
 
-          <a onclick="copyThis(`<img class='' src=' '/>`)" 
-             class=" vol btn"> 
-          <p class=" v small ">Img</p> 
-          </a>
+<a onclick="copyThis(`<section logoscreen> </section>`)" center> 
+    <img src="img/10.png" neu bdr="25" alt="">
+    <p unbound bold w1>Logo</p> 
+</a>
 
-          <a onclick="copyThis(`<nav class='head stay row '>
+<a onclick="copyThis(`<layout > </layout>`)" center> 
+    <img src="img/1.png" neu bdr="25" alt="">
+    <p unbound bold w1>Logo</p> 
+</a>
+
+<a onclick="copyThis(`<section id='' '> </section>`)" center> 
+    <img src="img/15.png">
+    <p unbound bold w1>Section</p> 
+    </a> 
+
+    <a onclick="copyThis(`<div > </div>`)" center> 
+        <img src="img/15.png">
+        <p unbound bold w1>Div</p>  
+</a>
+
+    <a onclick="copyThis(`<span > </span>`)" center> 
+        <img src="img/15.png">
+<p unbound bold w1>Span</p> 
+</a>
+
+<a onclick="copyThis(`<p > </p>`)" center> 
+    <img src="img/8.png">
+    <p unbound bold w1>Text</p>  
+</a> 
+
+
+<a onclick="copyThis(`<cont> </cont>`)" center>
+    <img src="img/7.png">
+<p unbound bold w1>Container</p>
+</a>
+
+<a onclick="copyThis(`<a onclick='to()' >
+<p class=' '> </p>
+</a>`)" center> 
+<img src="img/9.png" neu bdr="25" alt="">
+<p unbound bold w1>Button</p> 
+</a>
+
+<a onclick="copyThis(`<img class='' src=' '/>`)" center> 
+<img src="img/14.png" neu bdr="25" alt="">
+<p unbound bold w1>Image</p> 
+</a>
+
+<a onclick="copyThis(`<nav class='head stay row '>
 
 <span class='item-left '>
 <p class=' '> Name </p>
@@ -256,160 +189,158 @@ code
 
 <span class='item-right'>
 <a class='ico' onclick='menu()'>
-       <p class=' '> =  </p>
- </a>
+<p class=' '> =  </p>
+</a>
 </span>
 
-</nav>`)" class="vol btn"> 
+</nav>`)" center> 
 
-          <p class=" v small "> Head </p> 
+<img src="img/3.png" neu bdr="25" alt="">
+<p unbound bold w1>Head</p> 
 
-          </a>
+</a>
 
-<a onclick="copyThis(`<div class='input'>
-<input placeholder='Input' value='input'>
-</div>`)" 
-           class=" vol btn "> 
-          <p class=" v small ">Input</p> 
-          </a> 
+<a onclick="copyThis(`<textarea placeholder='textarea' value='textarea'>
+</textarea>`)" center> 
+ <img src="img/7.png">
+ <p unbound bold w1>Input</p>  
+</a> 
 
-          <a onclick="copyThis(`<textarea placeholder='textarea' value='textarea'>
-</textarea>)" 
-           class="vol btn "> 
-          <p class=" v small ">Textarea</p> 
-          </a> 
-          
-          <a onclick="copyThis(`<nav class='foot '>
+<a onclick="copyThis(`<nav class='foot '>
 <a class='cont btn '>
 
-       <p class=' '>A</p>
+<p class=' '>A</p>
 
- </a>
+</a>
 
 <a class='cont btn '>
 
-       <p class=' '>B</p>
+<p class=' '>B</p>
 
- </a>
+</a>
 
 </nav>
-`)" class="vol  btn"> 
-          <p class=" v small ">Foot</p> 
-          </a>
+`)" center> 
+<img src="img/1.png" neu bdr="25" alt="">
+<p unbound bold w1>Foot</p> 
+
+</a>
 
 <a onclick="copyThis(`<span class='item-left '>
+    
+</span>`)" center> 
+<img src="img/11.png" neu bdr="25" alt="">
+<p unbound bold w1>Item Left</p> 
+</a>
+
+<a onclick="copyThis(`<span class='left '>
+
+</span>`)" center> 
+<img src="img/11.png" neu bdr="25" alt="">
+<p unbound bold w1>Left</p> 
+
+</a>
+
+<a onclick="copyThis(`<span class='item '>
             
-</span>`)" class="vol btn"> 
-          <p class=" v small ">Item-left</p> 
-          </a>
-          
-          <a onclick="copyThis(`<span class='left '>
-                      
-</span>`)" class="vol btn"> 
-          <p class=" v small ">Left</p> 
+</span>`)" center> 
+<img src="img/17.png" neu bdr="25" alt="">
+<p unbound bold w1>Item</p> 
+</a>
 
-          </a>
-          
-          <a onclick="copyThis(`<span class='item '>
-                      
-</span>`)" class="vol btn"> 
-          <p class=" v small ">Item</p> 
-          </a>
+<a onclick="copyThis(`<span class='right '>
+    
+</span>`)" center> 
+<img src="img/16.png" neu bdr="25" alt="">
+<p unbound bold w1>Right</p> 
+</a>
 
- <a onclick="copyThis(`<span class='right '>
-             
-</span>`)" class="vol  btn"> 
-          <p class="v small ">Right</p> 
-          </a>
-          
 <a onclick="copyThis(`<span class='item-right '>
+    
+</span>`)" center> 
+<img src="img/16.png" neu bdr="25" alt="">
+<p unbound bold w1>Item Right</p> 
+</a>
+
+<a onclick="copyThis(`<span grid='2'>
+    
+</span>`)" center> 
+<img src="img/19.png" neu bdr="25" alt="">
+<p unbound bold w1>Grid 2</p> 
+</a>
+
+<a onclick="copyThis(`<span grid='1'>
+    
+</span>`)" center> 
+<img src="img/18.png" neu bdr="25" alt="">
+<p unbound bold w1>Grid 3</p> 
+</a>
+
+
+<a onclick="copyThis(`<span class='row'>
             
-</span>`)" class="vol btn"> 
-          <p class="v small ">Item-right</p> 
-          </a>
+</span>`)" center> 
+<img src="img/20.png" neu bdr="25" alt="">
+<p unbound bold w1>Row</p> 
+</a>
 
-<a onclick="copyThis(`<span class='gridby2'>
+<a onclick="copyThis(`<span class='col '>
             
-</span>`)" class="vol btn"> 
-          <p class="v small ">Gridby2</p> 
-          </a>
-          
-         <a onclick="copyThis(`<span class='row'>
-                     
-</span>`)" class="vol btn"> 
-          <p class=" v small ">Row</p> 
+</span>`)" center> 
+<img src="img/18.png" neu bdr="25" alt="">
+<p unbound bold w1>Column</p> 
+</a>
 
-          </a>
-          
-          <a onclick="copyThis(`<span class='col '>
-                      
-</span>`)" class="vol btn"> 
-          <p class="v small ">Column</p> 
+<a onclick="copyThis(`<script src=' '> </script>`)" center> 
+    <i v3 b2bg neu big-p bdr="25" small-mb big class="fa-solid fa-code"></i>
+    <p unbound bold w1>Script</p>
+</a>
+<a onclick="copyThis(`<link rel='' href=''/>`)" center> 
+    <i v3 b2bg neu big-p bdr="25" small-mb big class="fa-solid fa-code"></i>
+    <p unbound bold w1>Linkrel</p>
+</a>
 
-          </a>
 
-          <a onclick="copyThis(`<script src=' '> </script>`)" class="vol btn"> 
-          <p class="small v ">Script</p> 
-          </a>
-    <a onclick="copyThis(`<link rel='' href=''/>`)" class="vol btn"> 
-          <p class="v small ">Link rel</p> 
-          </a>
-      
-          
-          <a href="https://fontawesome.com/search?o=r&m=free&s=solid" class="vbg btn"> 
+<a href="https://fontawesome.com/search?o=r&amp;m=free&amp;s=solid" center > 
 
-          <p class="small b ">Fontawesome</p> 
+    <i v3 b2bg neu big-p bdr="25" small-mb big class="fa-solid fa-cubes"></i>
+    <p unbound bold w1>Fontawesome</p>
+</a>
 
-          </a>
+<a href="https://actwu.github.io/neu" center> 
+<i v3 b2bg neu big-p bdr="25" small-mb big class="fa-solid fa-gear"></i>
+<p unbound bold w1>Neu</p>
 
-             <a href="https://actwu.github.io/neu" class="vbg btn"> 
+</a>
+<a onclick="starthtml(), code()" center >
+<i v3 b2bg neu big-p bdr="25" small-mb big class="fa-solid fa-plus"></i>
+<p unbound bold w1>Add Futr Temp</p>
+</a> 
+</span>
 
-          <p class="small b ">Neu</p> 
+</div>
 
-          </a>
-        <a onclick="starthtml(), code()" class="wbg btn ">
-          <p class="small b ">Add Futr Temp</p>
-         </a> 
-        </span> 
-       
-      </div>
-   </section>
+<cont foot island neu>
+    <a onclick="code();"
+    v1bg center>
+    <i v3 class="fa-solid fa-lg fa-code"></i>
+    </a>
     
+    <a onclick="run();"
+    v1bg center>
+    <i v3 class="fa-solid fa-lg fa-play"></i>
+    </a>
+    <a 
+    v3bg center>
+    <i v1 class="fa-solid fa-lg fa-cubes"></i>
+    </a>
+    </cont>
     
-   
-
-      
-<script src="view/script.js">
-  </script>
-  <script>
-  const config = [css = 'default', icon = 'all']
-  const configstate = 'defined'
-
-datarevert()
-    </script>
-   <script src="https://atstem.github.io/just.css/just.js">
-  </script> 
- 
-    
-   <style> 
-    .snip{
-    
-     height: 65vh;
-     width:85vw;
-      }
-
-     a:active {
-    opacity: 50%;
-   }
-
-    a:hover {
-    opacity: 25%;
-   }
-
-nav { z-index:3;}
-    </style>
-    
-  </body>
+</section>
 
 
-  </html>
+<script src="https://actwu.github.io/code/view/script.js"></script>
+</body>
+</html>
+
+
