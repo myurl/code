@@ -40,6 +40,7 @@ htmlcode =
 <meta name="msapplication-TileImage" content="URL of your tile image">
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="https://actwu.github.io/neu/n.css"/>
+<script src="https://actwu.github.io/neu/n.css"></script>
 </head>
 <body>
 
