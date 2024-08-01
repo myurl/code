@@ -53,7 +53,7 @@ htmlcode =
 
 function datarevert() {
 txt.value = localStorage.getItem("saved");
-txt2.value = localStorage.getItem("saved2");
+
 }
 
 saver = setInterval(() => {
