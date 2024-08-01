@@ -127,8 +127,6 @@ function copy() {
 function copyThis(copies) {
 
   navigator.clipboard.writeText(copies);
-
-  
-
+code();
 }
 
