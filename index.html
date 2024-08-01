@@ -4,27 +4,27 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          
-    <meta name="theme-color" content="#191919">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <title>Futr Code</title>
-    <meta property="og:title" content="Futrcode">
-    <meta property="og:description" content="edit">
-    <meta property="og:image" content="/img/1.png">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="edit">
-    <meta name="twitter:description" content="Futr Code">
-    <meta name="twitter:image" content="/img/1.png">
-    <meta name="twitter:image:alt" content="banner name">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="theme-color" content="#191919">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Futr Code</title>
+<meta property="og:title" content="Futrcode">
+<meta property="og:description" content="edit">
+<meta property="og:image" content="/img/1.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="edit">
+<meta name="twitter:description" content="Futr Code">
+<meta name="twitter:image" content="/img/1.png">
+<meta name="twitter:image:alt" content="banner name">
 
 <meta property="title" content="edit">
 <meta property="author" content="edit">
 <meta property="image" content="/img/1.png">
 <meta property="description" content="Futr Code">
-    
+
 <link rel="shortcut icon" href="/img/icon.png" type="image/x-icon"> 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
@@ -71,22 +71,33 @@ href="https://atstem.github.io/just.css/anim.css"/>
 
 [tx]{display: flex; flex-basis: content; }
 textarea{display: block; flex-grow: 1; height: 80vh; width: 90vw;}
-[foot] a {height: 0.3in;}
+[foot] a{height: 0.3in;}
 
 img {height: 2in; width: 2in;}
 </style>
 <body>
 <bg b1bg></bg>
 
-
 <section id="code" class="">
 <div tx neu w1bg bdr="15" small-m mid-mb class="fade-1s">
+
 <textarea id="snip" bdr="15" placeholder="Code Here" w1 flex small-p w1bg>
 </textarea>
 </div>
-    <div></div>
-     
-<cont foot island neu>
+<div></div>
+
+<cont foot island col neu>
+<span row>
+<a onclick="load();"
+glass center>
+<i w1 class="fa-solid fa-lg fa-rotate"></i>
+</a>
+<a onclick="backup();"
+glass center>
+<i w1 class="fa-solid fa-floppy-disk"></i>
+</a>
+</span>
+<span row>
 <a
 v3bg center>
 <i v1 class="fa-solid fa-lg fa-code"></i>
@@ -99,14 +110,22 @@ v1bg center>
 <a onclick="sure();"
 v1bg center>
 <i v3 class="fa-solid fa-lg fa-cubes"></i>
-</a>
+</a></span>
 </cont>
-    
+
 </section>
 <section id="run" class=" hide">
 
 <span id="runner" class="fade-1s"></span>
-<cont foot island neu>
+<cont foot island col neu>
+<span row>
+<a 
+onclick="window.open('https://actwu.github.io/code/view/re.html')"
+glass center>
+<i w1 class="fa-solid fa-lg fa-expand"></i>
+</a>
+</span>
+<span row>
 <a onclick="code();"
 v1bg center>
 <i v3 class="fa-solid fa-lg fa-code"></i>
@@ -121,11 +140,12 @@ v3bg center>
 v1bg center>
 <i v3 class="fa-solid fa-lg fa-cubes"></i>
 </a>
+</span>
 </cont>
 
 </section>
-<section id="sure" class="hide fade-1s">
- 
+<section id="sure" class="hide ">
+
 <div scroll small-m bdr="15" class="fade-1s">
 <span grid="2" small-m small-mb2 class=" space2">
 
@@ -135,38 +155,38 @@ v1bg center>
 </a>
 
 <a onclick="copyThis(`<section logoscreen> </section>`)" center> 
-    <img src="img/10.png" neu bdr="25" alt="">
-    <p unbound bold w1>Logo</p> 
+<img src="img/10.png" neu bdr="25" alt="">
+<p unbound bold w1>Logo</p> 
 </a>
 
 <a onclick="copyThis(`<layout > </layout>`)" center> 
-    <img src="img/1.png" neu bdr="25" alt="">
-    <p unbound bold w1>Logo</p> 
+<img src="img/1.png" neu bdr="25" alt="">
+<p unbound bold w1>Logo</p> 
 </a>
 
 <a onclick="copyThis(`<section id='' '> </section>`)" center> 
-    <img src="img/15.png">
-    <p unbound bold w1>Section</p> 
-    </a> 
+<img src="img/15.png">
+<p unbound bold w1>Section</p> 
+</a> 
 
-    <a onclick="copyThis(`<div > </div>`)" center> 
-        <img src="img/15.png">
-        <p unbound bold w1>Div</p>  
+<a onclick="copyThis(`<div > </div>`)" center> 
+<img src="img/15.png">
+<p unbound bold w1>Div</p>  
 </a>
 
-    <a onclick="copyThis(`<span > </span>`)" center> 
-        <img src="img/15.png">
+<a onclick="copyThis(`<span > </span>`)" center> 
+<img src="img/15.png">
 <p unbound bold w1>Span</p> 
 </a>
 
 <a onclick="copyThis(`<p > </p>`)" center> 
-    <img src="img/8.png">
-    <p unbound bold w1>Text</p>  
+<img src="img/8.png">
+<p unbound bold w1>Text</p>  
 </a> 
 
 
 <a onclick="copyThis(`<cont> </cont>`)" center>
-    <img src="img/7.png">
+<img src="img/7.png">
 <p unbound bold w1>Container</p>
 </a>
 
@@ -203,8 +223,8 @@ v1bg center>
 
 <a onclick="copyThis(`<textarea placeholder='textarea' value='textarea'>
 </textarea>`)" center> 
- <img src="img/7.png">
- <p unbound bold w1>Input</p>  
+<img src="img/7.png">
+<p unbound bold w1>Input</p>  
 </a> 
 
 <a onclick="copyThis(`<nav class='foot '>
@@ -228,7 +248,7 @@ v1bg center>
 </a>
 
 <a onclick="copyThis(`<span class='item-left '>
-    
+
 </span>`)" center> 
 <img src="img/11.png" neu bdr="25" alt="">
 <p unbound bold w1>Item Left</p> 
@@ -243,35 +263,35 @@ v1bg center>
 </a>
 
 <a onclick="copyThis(`<span class='item '>
-            
+
 </span>`)" center> 
 <img src="img/17.png" neu bdr="25" alt="">
 <p unbound bold w1>Item</p> 
 </a>
 
 <a onclick="copyThis(`<span class='right '>
-    
+
 </span>`)" center> 
 <img src="img/16.png" neu bdr="25" alt="">
 <p unbound bold w1>Right</p> 
 </a>
 
 <a onclick="copyThis(`<span class='item-right '>
-    
+
 </span>`)" center> 
 <img src="img/16.png" neu bdr="25" alt="">
 <p unbound bold w1>Item Right</p> 
 </a>
 
 <a onclick="copyThis(`<span grid='2'>
-    
+
 </span>`)" center> 
 <img src="img/19.png" neu bdr="25" alt="">
 <p unbound bold w1>Grid 2</p> 
 </a>
 
 <a onclick="copyThis(`<span grid='1'>
-    
+
 </span>`)" center> 
 <img src="img/18.png" neu bdr="25" alt="">
 <p unbound bold w1>Grid 3</p> 
@@ -279,33 +299,33 @@ v1bg center>
 
 
 <a onclick="copyThis(`<span class='row'>
-            
+
 </span>`)" center> 
 <img src="img/20.png" neu bdr="25" alt="">
 <p unbound bold w1>Row</p> 
 </a>
 
 <a onclick="copyThis(`<span class='col '>
-            
+
 </span>`)" center> 
 <img src="img/18.png" neu bdr="25" alt="">
 <p unbound bold w1>Column</p> 
 </a>
 
 <a onclick="copyThis(`<script src=' '> </script>`)" center> 
-    <i v3 b2bg neu big-p bdr="25" small-mb big class="fa-solid fa-code"></i>
-    <p unbound bold w1>Script</p>
+<i v3 b2bg neu big-p bdr="25" small-mb big class="fa-solid fa-code"></i>
+<p unbound bold w1>Script</p>
 </a>
 <a onclick="copyThis(`<link rel='' href=''/>`)" center> 
-    <i v3 b2bg neu big-p bdr="25" small-mb big class="fa-solid fa-code"></i>
-    <p unbound bold w1>Linkrel</p>
+<i v3 b2bg neu big-p bdr="25" small-mb big class="fa-solid fa-code"></i>
+<p unbound bold w1>Linkrel</p>
 </a>
 
 
 <a href="https://fontawesome.com/search?o=r&amp;m=free&amp;s=solid" center > 
 
-    <i v3 b2bg neu big-p bdr="25" small-mb big class="fa-solid fa-cubes"></i>
-    <p unbound bold w1>Fontawesome</p>
+<i v3 b2bg neu big-p bdr="25" small-mb big class="fa-solid fa-cubes"></i>
+<p unbound bold w1>Fontawesome</p>
 </a>
 
 <a href="https://actwu.github.io/neu" center> 
@@ -322,21 +342,21 @@ v1bg center>
 </div>
 
 <cont foot island neu>
-    <a onclick="code();"
-    v1bg center>
-    <i v3 class="fa-solid fa-lg fa-code"></i>
-    </a>
-    
-    <a onclick="run();"
-    v1bg center>
-    <i v3 class="fa-solid fa-lg fa-play"></i>
-    </a>
-    <a 
-    v3bg center>
-    <i v1 class="fa-solid fa-lg fa-cubes"></i>
-    </a>
-    </cont>
-    
+<a onclick="code();"
+v1bg center>
+<i v3 class="fa-solid fa-lg fa-code"></i>
+</a>
+
+<a onclick="run();"
+v1bg center>
+<i v3 class="fa-solid fa-lg fa-play"></i>
+</a>
+<a 
+v3bg center>
+<i v1 class="fa-solid fa-lg fa-cubes"></i>
+</a>
+</cont>
+
 </section>
 
 
