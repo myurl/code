@@ -93,16 +93,18 @@ width: max-content;
 <cont foot island col neu>
 <span row>
 <a onmousedown="
-  const _jrj = localStorage.getItem('saved');
-const blob = new Blob([_jrj], { type: 'text/html' });
+  const savedContent = localStorage.getItem("saved");
+if (savedContent) {
+    const blob = new Blob([savedContent], { type: 'text/html' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `${ran(9e9)}.html`;
+    a.download = `${Math.floor(Math.random() * 9e9)}.html`; 
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
     URL.revokeObjectURL(url);
+  };
   "
 glass center>
   <i w1 class="fa-solid fa-lg fa-cloud-arrow-down"></i>
