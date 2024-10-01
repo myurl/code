@@ -114,8 +114,8 @@ class="  center"
   }
 
 function preview() {
-   
-  preset.innerHTML = eval(localStorage.getItem("saved"));
+   udhd=localStorage.getItem("saved");
+  preset.innerHTML = eval(udhd);
   
   }
   
