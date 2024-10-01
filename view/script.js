@@ -97,7 +97,6 @@ class="  center"
 
 function preview() {
     const udhd = localStorage.getItem("saved");
-    
     if (udhd) {
         preset.innerHTML = udhd;
         const scripts = preset.getElementsByTagName('script');
@@ -108,7 +107,6 @@ function preview() {
         }
     }
 }
-
   
 function copy() {
 
