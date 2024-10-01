@@ -11,43 +11,25 @@ sureset = document.getElementById("sure")
 htmlcode =   
   `
 
-  <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Your Website Title</title>
-<meta name="description" content="Brief description of your website, ideally including relevant keywords.">
-<meta name="keywords" content="List of keywords related to your website content.">
-<meta name="author" content="Your Name or Company Name">
-<meta name="robots" content="index, follow">
-<meta name="referrer" content="no-referrer-when-downgrade">
-<meta name="googlebot" content="index, follow">
-<meta name="bingbot" content="index, follow">
-<meta property="og:title" content="Your Website Title">
-<meta property="og:description" content="Brief description of your website, ideally including relevant keywords.">
-<meta property="og:image" content="URL of an image representing your website for social sharing">
-<meta property="og:url" content="URL of your website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Your Website Title">
-<meta name="twitter:description" content="Brief description of your website, ideally including relevant keywords.">
-<meta name="twitter:image" content="URL of an image representing your website for social sharing">
-<meta name="twitter:site" content="@YourTwitterHandle">
-<meta name="twitter:creator" content="@YourTwitterHandle">
-<meta name="application-name" content="Your Website Name">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="URL of your tile image">
-<meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="https://actwu.github.io/neu/n.css"/>
-<script src="https://actwu.github.io/neu/n.css"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+  <neo>
+  <script src="https://purpos.web.app/ui/sen.js"></script>
+  <script>
+    set.title("Neo Sample App");
+    set.info("A simple Neo app");
+    set.key("neo, app, sample");
+    set.view();
+    set.cover(1);
+    set.icon(1);
+    ui();
+  </script>
 
- 
-</body>
-</html>
+  <screen center>
+    <cont bbg m2>
+      <p mid [y]>Welcome to the Neo Sample App</p>
+      <a onmousedown="alert('Hello!')">Click Me</a>
+    </cont>
+  </screen>
+</neo>
 
 `
 
