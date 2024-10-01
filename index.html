@@ -93,12 +93,10 @@ width: max-content;
 <cont foot island col neu>
 <span row>
 <a onmousedown="
+_83=localStorage.getItem('saved');
 
-file.new(`${ran(9e9}.html`);
-file.type('plain/txt');
-_idjd=localStorage.getItem('saved')
-file.data(_idjd);
-
+newFile({filename:`${ran(9e9}.html`),
+filetype:'html', data:_83});
   "
 glass center>
   <i w1 class="fa-solid fa-lg fa-cloud-arrow-down"></i>
