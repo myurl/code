@@ -115,8 +115,8 @@ class="  center"
 
 function preview() {
    
-  preset.innerHTML = localStorage.getItem("saved");
- 
+  preset.innerHTML = eval(localStorage.getItem("saved"));
+  
   }
   
 function copy() {
