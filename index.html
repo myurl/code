@@ -93,10 +93,16 @@ width: max-content;
 <cont foot island col neu>
 <span row>
 <a onmousedown="
-_83=localStorage.getItem('saved');
-
-newFile({filename:`${ran(9e9}.html`),
-filetype:'html', data:_83});
+  const _jrj = localStorage.getItem('saved');
+const blob = new Blob([_jrj], { type: 'text/html' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `${ran(9e9)}.html`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
   "
 glass center>
   <i w1 class="fa-solid fa-lg fa-cloud-arrow-down"></i>
