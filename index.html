@@ -95,9 +95,8 @@ width: max-content;
 <a onmousedown="
 
 file.new(`${ran(9e9}`);
-file.type('txt');
-local.name('saved');
-_idjd=local.get();
+file.type('plain/txt');
+_idjd=localStorage.getItem('saved')
 file.data(_idjd);
 
   "
