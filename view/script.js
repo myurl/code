@@ -114,10 +114,19 @@ class="  center"
   }
 
 function preview() {
-   udhd=localStorage.getItem("saved");
-  preset.innerHTML = eval(udhd);
-  
-  }
+    const udhd = localStorage.getItem("saved");
+    
+    if (udhd) {
+        preset.innerHTML = udhd;
+        const scripts = preset.getElementsByTagName('script');
+        for (let script of scripts) {
+            const newScript = document.createElement('script');
+            newScript.text = script.innerHTML;
+            document.body.appendChild(newScript);
+        }
+    }
+}
+
   
 function copy() {
 
