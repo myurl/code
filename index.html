@@ -93,7 +93,7 @@ width: max-content;
 <cont foot island col neu>
 <span row>
 <a onmousedown="
-  const savedContent = localStorage.getItem("saved");
+  const savedContent = localStorage.getItem('saved');
 if (savedContent) {
     const blob = new Blob([savedContent], { type: 'text/html' });
     const url = URL.createObjectURL(blob);
